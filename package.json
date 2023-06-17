@@ -6,8 +6,17 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@j4mie/react-email": "^0.1.0",
+        "@react-email/html": "0.0.4",
+        "@react-email/text": "^0.0.4",
         "axios": "^1.1.2",
         "laravel-vite-plugin": "^0.7.5",
         "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "@react-email/button": "0.0.9",
+        "@react-email/components": "0.0.7",
+        "@react-email/container": "0.0.8",
+        "react-email": "1.9.4"
     }
 }

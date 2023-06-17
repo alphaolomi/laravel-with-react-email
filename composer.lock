@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f396510c7eef1c549b45608d897cd6b5",
+    "content-hash": "686f41fa84a94d34a14082b4c730a558",
     "packages": [
         {
             "name": "brick/math",
@@ -1759,6 +1759,60 @@
                 }
             ],
             "time": "2022-04-17T13:12:02+00:00"
+        },
+        {
+            "name": "maantje/react-email",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maantje/laravel-react-email.git",
+                "reference": "e43797b8775f15b5c9f2a1e6267cf66d2f969da7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maantje/laravel-react-email/zipball/e43797b8775f15b5c9f2a1e6267cf66d2f969da7",
+                "reference": "e43797b8775f15b5c9f2a1e6267cf66d2f969da7",
+                "shasum": ""
+            },
+            "require-dev": {
+                "orchestra/testbench": "^7.20",
+                "pestphp/pest": "^1.22"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Maantje\\ReactEmail\\ReactEmailServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Maantje\\ReactEmail\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jamie Schouten",
+                    "email": "j4mie@hey.com"
+                }
+            ],
+            "description": "React email for Laravel",
+            "homepage": "https://github.com/maantje/laravel-react-email",
+            "keywords": [
+                "laravel",
+                "react",
+                "react email"
+            ],
+            "support": {
+                "issues": "https://github.com/maantje/laravel-react-email/issues",
+                "source": "https://github.com/maantje/laravel-react-email/tree/v0.1.0"
+            },
+            "time": "2023-02-03T21:36:26+00:00"
         },
         {
             "name": "monolog/monolog",
